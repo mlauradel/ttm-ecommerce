@@ -1,0 +1,84 @@
+.header{
+    background: linear-gradient(90deg, rgba(255,44,44,1) 0%, rgba(6,6,6,1) 84%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 6rem;
+    
+  
+  }
+  
+  .header img {
+    filter: drop-shadow(2px 2px #e7e7e7);
+  }
+  
+  h1{
+    color: black;
+    font-size: 3rem;
+    font-weight: 800;
+    text-shadow: 1px 1px #e7e7e7;
+  }
+  
+  a{
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    font-size: 1.05rem;
+  }
+  
+  .header a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+  }
+  
+  .header img{
+    height: 8rem;
+    width: 8rem;
+  }
+  
+  .navbar{
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+  }
+  
+  .container{
+    margin: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./img/background.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container h2, p{
+    margin: 0;
+    color: rgb(250, 250, 250);
+  }
+  
+  .hero{
+    font-size: 2rem;
+    text-shadow: 1px 1px #ff7c7c;
+  }
+  
+  .hero span{
+    color: rgb(255,44,44);
+  }
+  
+  .cart{
+    position: relative;
+  }
+  
+  .contador{
+    font-size: 0.8rem;
+    padding: 4px;
+    background-color: rgba(255,44,44,1);
+    border-radius: 10px;
+    position: absolute;
+    left: 16px;
+    top: -10px;
+    
+  }
