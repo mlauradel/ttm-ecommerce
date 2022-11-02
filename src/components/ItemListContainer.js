@@ -1,13 +1,16 @@
-import React from 'react'
+import React from 'react';
+import { useState, useEffect } from 'react';
 
 const ItemListContainer = ({usuario}) => {
-  return (
-    <div className='container'>
-        <div className='hero'>
-            <h2>Bienvenido <span>{usuario.nombre} {usuario.apellido}</span></h2>
-            <p>¿Listo para pelotear?</p>
-        </div>
-    </div>
+
+  const [items, setItems] = useState([])
+
+  
+  return (     
+    <section>
+      <div></div>
+    </section>
+    
   )
 }
 
