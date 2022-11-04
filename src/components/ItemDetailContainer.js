@@ -19,7 +19,8 @@ const ItemDetailContainer = () => {
       console.log("error")
     }
   }, [id])
-  */ 
+
+  */
 
 
   return (
