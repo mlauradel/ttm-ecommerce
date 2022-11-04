@@ -9,7 +9,7 @@ const ItemDetailContainer = () => {
   const [item, setItem] = useState([]);
   const {id} = useParams();
 
-  useEffect(() => {
+/*  useEffect(() => {
     setItem([])  
     if(id){
       getProductById(id)
@@ -19,13 +19,12 @@ const ItemDetailContainer = () => {
       console.log("error")
     }
   }, [id])
-  
+  */ 
 
 
   return (
     
-    <div>
-      <ItemDetail detalle = {item} />
+    <div>      
     </div>
       
   )
