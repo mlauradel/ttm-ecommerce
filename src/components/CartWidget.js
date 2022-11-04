@@ -1,4 +1,6 @@
 import React from 'react'
+import Count from './Count'
+
 
 const CartWidget = () => {
   return (

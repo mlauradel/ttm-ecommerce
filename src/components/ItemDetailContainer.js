@@ -9,7 +9,7 @@ const ItemDetailContainer = () => {
   const [item, setItem] = useState([]);
   const {id} = useParams();
 
-/*  useEffect(() => {
+  useEffect(() => {
     setItem([])  
     if(id){
       getProductById(id)
@@ -19,14 +19,14 @@ const ItemDetailContainer = () => {
       console.log("error")
     }
   }, [id])
-
-  */
+  
 
 
   return (
     
-    <div>      
-    </div>
+    <div>
+        {item.length == 0 ? <h1> cargando ...</h1> : <ItemDetail item={item}/>}
+    </div> 
       
   )
 }
